@@ -7,7 +7,7 @@ import { useState } from 'react'
 export default function Gallery() {
   // State for modal functionality
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
-  const [selectedCaption, setSelectedCaption] = useState<string>('')
+  const [selectedCaption, setSelectedCaption] = useState<string>(' ')
 
   // Function to open modal
   const openModal = (src: string, caption: string) => {
@@ -18,44 +18,46 @@ export default function Gallery() {
   // Function to close modal
   const closeModal = () => {
     setSelectedImage(null)
-    setSelectedCaption('')
+    setSelectedCaption(' ')
   }
 
   // Hardcoded gallery images in exact order from original site with captions
   const galleryItems = [
-    { src: '0000001.jpg', caption: '' },
-    { src: '0000002.jpg', caption: '' },
-    { src: '0000003.jpg', caption: '' },
-    { src: '0000004.jpg', caption: '' },
-    { src: '0000005.jpg', caption: '' },
-    { src: '0000006.jpg', caption: '' },
-    { src: '0000007.jpg', caption: '' },
-    { src: '0000008.jpg', caption: '' },
-    { src: '0000009.jpg', caption: '' },
-    { src: '0000010.JPG', caption: '' },
-    { src: '0011.jpeg', caption: '' },
-    { src: '0012.jpeg', caption: '' },
-    { src: '0013.jpeg', caption: '' },
+    {src: 'PHOTO-2025-06-23-23-34-44.jpg', caption:' ' },
+    {src: 'PHOTO-2025-06-23-23-34-42.jpg', caption:' ' },
+    { src: '0000001.jpg', caption: ' ' },
+    { src: '0000002.jpg', caption: ' ' },
+    { src: '0000003.jpg', caption: ' ' },
+    { src: '0000004.jpg', caption: ' ' },
+    { src: '0000005.jpg', caption: ' ' },
+    { src: '0000006.jpg', caption: ' ' },
+    { src: '0000007.jpg', caption: ' ' },
+    { src: '0000008.jpg', caption: ' ' },
+    { src: '0000009.jpg', caption: ' ' },
+    { src: '0000010.JPG', caption: ' ' },
+    { src: '0011.jpeg', caption: ' ' },
+    { src: '0012.jpeg', caption: ' ' },
+    { src: '0013.jpeg', caption: ' ' },
     { src: '0015.jpeg', caption: 'Graduation dinner 2024' },
-    { src: '0014.jpeg', caption: '' },
-    { src: '0016.jpeg', caption: '' },
-    { src: '0017.jpeg', caption: '' },
-    { src: '0018.jpeg', caption: '' },
-    { src: '0019.jpeg', caption: '' },
-    { src: '0020.jpeg', caption: '' },
-    { src: '0021.jpeg', caption: '' },
-    { src: '0022.jpeg', caption: '' },
-    { src: '0023.jpeg', caption: '' },
-    { src: '0024.jpeg', caption: '' },
-    { src: '0025.jpeg', caption: '' },
-    { src: 'dinner-2023-BW.jpeg', caption: '' },
-    { src: 'dinner-2023.jpeg', caption: '' },
-    { src: 'gallery-01.jpg', caption: '' },
-    { src: 'gallery-02.jpg', caption: '' },
-    { src: 'gallery-03.jpg', caption: '' },
-    { src: 'gallery-04.jpg', caption: '' },
-    { src: 'gallery-05.jpg', caption: '' },
-    { src: 'gallery-06.jpg', caption: '' },
+    { src: '0014.jpeg', caption: ' ' },
+    { src: '0016.jpeg', caption: ' ' },
+    { src: '0017.jpeg', caption: ' ' },
+    { src: '0018.jpeg', caption: ' ' },
+    { src: '0019.jpeg', caption: ' ' },
+    { src: '0020.jpeg', caption: ' ' },
+    { src: '0021.jpeg', caption: ' ' },
+    { src: '0022.jpeg', caption: ' ' },
+    { src: '0023.jpeg', caption: ' ' },
+    { src: '0024.jpeg', caption: ' ' },
+    { src: '0025.jpeg', caption: ' ' },
+    { src: 'dinner-2023-BW.jpeg', caption: ' ' },
+    { src: 'dinner-2023.jpeg', caption: ' ' },
+    { src: 'gallery-01.jpg', caption: ' ' },
+    { src: 'gallery-02.jpg', caption: ' ' },
+    { src: 'gallery-03.jpg', caption: ' ' },
+    { src: 'gallery-04.jpg', caption: ' ' },
+    { src: 'gallery-05.jpg', caption: ' ' },
+    { src: 'gallery-06.jpg', caption: ' ' },
     { src: 'gallery-07.jpg', caption: 'Christmas 2024 night snack gathering' },
     { src: 'gallery-11.jpg', caption: 'Christmas 2024 night snack gathering' },
     { src: 'gallery-12.jpg', caption: 'Christmas 2023 night snack gathering' },
@@ -95,8 +97,8 @@ export default function Gallery() {
               <Image
                 src="/images/bclo-logo.png"
                 alt="BCLo-VingTsun Logo"
-                width={120}
-                height={60}
+            width={80}
+            height={80}
                 className="mx-auto"
                 unoptimized
               />

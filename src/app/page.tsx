@@ -57,7 +57,7 @@ export default function Home() {
             textShadow: '2px 2px 5px rgba(0, 0, 0, 0.6)',
             textDecoration: 'none'
           }}>
-            About&nbsp;Us
+            About Us
           </Link>
         </div>
 
@@ -87,7 +87,7 @@ export default function Home() {
             textShadow: '2px 2px 5px rgba(0, 0, 0, 0.6)',
             textDecoration: 'none'
           }}>
-            Contact&nbsp;Us
+            Contact Us
           </Link>
         </div>
 
@@ -196,7 +196,7 @@ export default function Home() {
             textShadow: '2px 2px 5px rgba(0, 0, 0, 0.6)',
             textDecoration: 'none'
           }}>
-            Training&nbsp;Sets
+            Training Sets
           </Link>
         </div>
 

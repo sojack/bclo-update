@@ -44,7 +44,7 @@ export default function About() {
             A brief introduction of <em>Sifu</em> Benny Lo:
           </h2>
           <p style={{ fontSize: '0.8em', lineHeight: '1.3em', marginBottom: '1em' }}>
-            Sifu Benny is a big fan of Chinese martial arts who studied Ving Tsun under Master Stewart H. Fung, a former student of Grand Master Yip Man in Hong Kong. Benny started to learn Ving Tsun in 1990 and graduated from Master Fung in 1994. His entire family are also students of Master Fung for many years, and his wife was the founder of the Ving Tsun Club at R.H. King Academy, TDSB where she has taught for over 10 years. Benny and his wife are still active members of Master Fung's Ving Tsun Research Class and he has been teaching Ving Tsun on a part-time basis for many years.
+            Sifu Benny is a big fan of Chinese martial arts who studied Ving Tsun under Master Stewart H. Fung, a former student of Grand Master Yip Man in Hong Kong. Benny started to learn Ving Tsun in 1990 and graduated from Master Fung in 1994. His entire family are also students of Master Fung for many years, and his wife was the founder of the Ving Tsun Club at R.H. King Academy, TDSB where she has taught for over 18 years. Benny and his wife are still active members of Master Fung's Ving Tsun Research Class and he has been teaching Ving Tsun on a part-time basis for many years.
           </p>
         </div>
         

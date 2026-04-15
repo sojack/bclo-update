@@ -59,7 +59,7 @@ export default function Contact() {
         <div style={{ marginBottom: '2em' }}>
           <h3 style={{ fontSize: '0.9em', marginBottom: '1em' }}>Class Schedule</h3>
           <p style={{ marginBottom: '0.5em' }}>
-            Every Tuesday night from 8 – 10 pm
+            Every Tuesday night from 7 – 9 pm
           </p>
 
         </div>

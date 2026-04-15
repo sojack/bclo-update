@@ -24,15 +24,15 @@ export default function Gallery() {
   // Gallery images in alphabetical filename order, matching the original Gatsby site's sort.
   // Captions are mapped from the original GalleryCaptions array by position.
   const galleryItems = [
-    { src: '0000001.jpg', caption: '' },
+    { src: '0000001.jpg', caption: "Sifu Fung's 85th birthday dinner - May 2025" },
+    { src: '0000008.jpg', caption: '' },
+    { src: '0000009.jpg', caption: '' },
+    { src: '0000005.jpg', caption: '' },
+    { src: '0000006.jpg', caption: '' },
     { src: '0000002.jpg', caption: '' },
     { src: '0000003.jpg', caption: '' },
     { src: '0000004.jpg', caption: '' },
-    { src: '0000005.jpg', caption: '' },
-    { src: '0000006.jpg', caption: '' },
     { src: '0000007.jpg', caption: '' },
-    { src: '0000008.jpg', caption: '' },
-    { src: '0000009.jpg', caption: '' },
     { src: '0000010.JPG', caption: '' },
     { src: '0000011.JPG', caption: '' },
     { src: '0000012.jpeg', caption: '' },

@@ -177,7 +177,7 @@ export default function Home() {
           <p><strong>April:</strong> 14, 21, 28</p>
           <p><strong>May:</strong> 5, 12, 26</p>
           <p><strong>June:</strong> 2, 9, 16, 23</p>
-          <p><strong>July:</strong> 7, 14, 21, 28</p>
+          <p><strong>July:</strong> 7, 14, 21, <span style={{ textDecoration: 'line-through' }}>28</span></p>
           <p><strong>Aug.:</strong> 11, 18, 25</p>
           <p><strong>September:</strong> OFF</p>
           <p><strong>Oct.:</strong> 6, 20, 27</p>
